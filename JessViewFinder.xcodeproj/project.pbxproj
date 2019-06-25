@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		793AF5BA22C26E4300EEF939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5B922C26E4300EEF939 /* AppDelegate.swift */; };
-		793AF5BC22C26E4300EEF939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5BB22C26E4300EEF939 /* ViewController.swift */; };
 		793AF5BF22C26E4300EEF939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793AF5BD22C26E4300EEF939 /* Main.storyboard */; };
 		793AF5C222C26E4300EEF939 /* JessViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5C022C26E4300EEF939 /* JessViewFinder.xcdatamodeld */; };
 		793AF5C422C26E4500EEF939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793AF5C322C26E4500EEF939 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		793AF5B622C26E4300EEF939 /* JessViewFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JessViewFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793AF5B922C26E4300EEF939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		793AF5BB22C26E4300EEF939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		793AF5BE22C26E4300EEF939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		793AF5C122C26E4300EEF939 /* JessViewFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JessViewFinder.xcdatamodel; sourceTree = "<group>"; };
 		793AF5C322C26E4500EEF939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				793AF5B922C26E4300EEF939 /* AppDelegate.swift */,
-				793AF5BB22C26E4300EEF939 /* ViewController.swift */,
 				793AF5BD22C26E4300EEF939 /* Main.storyboard */,
 				793AF5C322C26E4500EEF939 /* Assets.xcassets */,
 				793AF5C522C26E4500EEF939 /* LaunchScreen.storyboard */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793AF5BC22C26E4300EEF939 /* ViewController.swift in Sources */,
 				793AF5BA22C26E4300EEF939 /* AppDelegate.swift in Sources */,
 				793AF5C222C26E4300EEF939 /* JessViewFinder.xcdatamodeld in Sources */,
 			);
