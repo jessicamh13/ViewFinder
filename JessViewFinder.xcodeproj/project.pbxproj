@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793AF5BA22C26E4300EEF939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5B922C26E4300EEF939 /* AppDelegate.swift */; };
+		793AF5BC22C26E4300EEF939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5BB22C26E4300EEF939 /* ViewController.swift */; };
+		793AF5BF22C26E4300EEF939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793AF5BD22C26E4300EEF939 /* Main.storyboard */; };
+		793AF5C222C26E4300EEF939 /* JessViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5C022C26E4300EEF939 /* JessViewFinder.xcdatamodeld */; };
+		793AF5C422C26E4500EEF939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793AF5C322C26E4500EEF939 /* Assets.xcassets */; };
+		793AF5C722C26E4500EEF939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793AF5C522C26E4500EEF939 /* LaunchScreen.storyboard */; };
+		793AF5D222C26E4500EEF939 /* JessViewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5D122C26E4500EEF939 /* JessViewFinderTests.swift */; };
+		793AF5DD22C26E4500EEF939 /* JessViewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793AF5DC22C26E4500EEF939 /* JessViewFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		793AF5CE22C26E4500EEF939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793AF5AE22C26E4300EEF939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793AF5B522C26E4300EEF939;
+			remoteInfo = JessViewFinder;
+		};
+		793AF5D922C26E4500EEF939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 793AF5AE22C26E4300EEF939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793AF5B522C26E4300EEF939;
+			remoteInfo = JessViewFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		793AF5B622C26E4300EEF939 /* JessViewFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JessViewFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		793AF5B922C26E4300EEF939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		793AF5BB22C26E4300EEF939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		793AF5BE22C26E4300EEF939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		793AF5C122C26E4300EEF939 /* JessViewFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JessViewFinder.xcdatamodel; sourceTree = "<group>"; };
+		793AF5C322C26E4500EEF939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		793AF5C622C26E4500EEF939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		793AF5C822C26E4500EEF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793AF5CD22C26E4500EEF939 /* JessViewFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JessViewFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		793AF5D122C26E4500EEF939 /* JessViewFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JessViewFinderTests.swift; sourceTree = "<group>"; };
+		793AF5D322C26E4500EEF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793AF5D822C26E4500EEF939 /* JessViewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JessViewFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		793AF5DC22C26E4500EEF939 /* JessViewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JessViewFinderUITests.swift; sourceTree = "<group>"; };
+		793AF5DE22C26E4500EEF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		793AF5B322C26E4300EEF939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AF5CA22C26E4500EEF939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AF5D522C26E4500EEF939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793AF5AD22C26E4300EEF939 = {
+			isa = PBXGroup;
+			children = (
+				793AF5B822C26E4300EEF939 /* JessViewFinder */,
+				793AF5D022C26E4500EEF939 /* JessViewFinderTests */,
+				793AF5DB22C26E4500EEF939 /* JessViewFinderUITests */,
+				793AF5B722C26E4300EEF939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		793AF5B722C26E4300EEF939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793AF5B622C26E4300EEF939 /* JessViewFinder.app */,
+				793AF5CD22C26E4500EEF939 /* JessViewFinderTests.xctest */,
+				793AF5D822C26E4500EEF939 /* JessViewFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		793AF5B822C26E4300EEF939 /* JessViewFinder */ = {
+			isa = PBXGroup;
+			children = (
+				793AF5B922C26E4300EEF939 /* AppDelegate.swift */,
+				793AF5BB22C26E4300EEF939 /* ViewController.swift */,
+				793AF5BD22C26E4300EEF939 /* Main.storyboard */,
+				793AF5C322C26E4500EEF939 /* Assets.xcassets */,
+				793AF5C522C26E4500EEF939 /* LaunchScreen.storyboard */,
+				793AF5C822C26E4500EEF939 /* Info.plist */,
+				793AF5C022C26E4300EEF939 /* JessViewFinder.xcdatamodeld */,
+			);
+			path = JessViewFinder;
+			sourceTree = "<group>";
+		};
+		793AF5D022C26E4500EEF939 /* JessViewFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				793AF5D122C26E4500EEF939 /* JessViewFinderTests.swift */,
+				793AF5D322C26E4500EEF939 /* Info.plist */,
+			);
+			path = JessViewFinderTests;
+			sourceTree = "<group>";
+		};
+		793AF5DB22C26E4500EEF939 /* JessViewFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				793AF5DC22C26E4500EEF939 /* JessViewFinderUITests.swift */,
+				793AF5DE22C26E4500EEF939 /* Info.plist */,
+			);
+			path = JessViewFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		793AF5B522C26E4300EEF939 /* JessViewFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793AF5E122C26E4500EEF939 /* Build configuration list for PBXNativeTarget "JessViewFinder" */;
+			buildPhases = (
+				793AF5B222C26E4300EEF939 /* Sources */,
+				793AF5B322C26E4300EEF939 /* Frameworks */,
+				793AF5B422C26E4300EEF939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JessViewFinder;
+			productName = JessViewFinder;
+			productReference = 793AF5B622C26E4300EEF939 /* JessViewFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		793AF5CC22C26E4500EEF939 /* JessViewFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793AF5E422C26E4500EEF939 /* Build configuration list for PBXNativeTarget "JessViewFinderTests" */;
+			buildPhases = (
+				793AF5C922C26E4500EEF939 /* Sources */,
+				793AF5CA22C26E4500EEF939 /* Frameworks */,
+				793AF5CB22C26E4500EEF939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793AF5CF22C26E4500EEF939 /* PBXTargetDependency */,
+			);
+			name = JessViewFinderTests;
+			productName = JessViewFinderTests;
+			productReference = 793AF5CD22C26E4500EEF939 /* JessViewFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		793AF5D722C26E4500EEF939 /* JessViewFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793AF5E722C26E4500EEF939 /* Build configuration list for PBXNativeTarget "JessViewFinderUITests" */;
+			buildPhases = (
+				793AF5D422C26E4500EEF939 /* Sources */,
+				793AF5D522C26E4500EEF939 /* Frameworks */,
+				793AF5D622C26E4500EEF939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793AF5DA22C26E4500EEF939 /* PBXTargetDependency */,
+			);
+			name = JessViewFinderUITests;
+			productName = JessViewFinderUITests;
+			productReference = 793AF5D822C26E4500EEF939 /* JessViewFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		793AF5AE22C26E4300EEF939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jessica Hernandez";
+				TargetAttributes = {
+					793AF5B522C26E4300EEF939 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					793AF5CC22C26E4500EEF939 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 793AF5B522C26E4300EEF939;
+					};
+					793AF5D722C26E4500EEF939 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 793AF5B522C26E4300EEF939;
+					};
+				};
+			};
+			buildConfigurationList = 793AF5B122C26E4300EEF939 /* Build configuration list for PBXProject "JessViewFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 793AF5AD22C26E4300EEF939;
+			productRefGroup = 793AF5B722C26E4300EEF939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				793AF5B522C26E4300EEF939 /* JessViewFinder */,
+				793AF5CC22C26E4500EEF939 /* JessViewFinderTests */,
+				793AF5D722C26E4500EEF939 /* JessViewFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		793AF5B422C26E4300EEF939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793AF5C722C26E4500EEF939 /* LaunchScreen.storyboard in Resources */,
+				793AF5C422C26E4500EEF939 /* Assets.xcassets in Resources */,
+				793AF5BF22C26E4300EEF939 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AF5CB22C26E4500EEF939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AF5D622C26E4500EEF939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		793AF5B222C26E4300EEF939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793AF5BC22C26E4300EEF939 /* ViewController.swift in Sources */,
+				793AF5BA22C26E4300EEF939 /* AppDelegate.swift in Sources */,
+				793AF5C222C26E4300EEF939 /* JessViewFinder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AF5C922C26E4500EEF939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793AF5D222C26E4500EEF939 /* JessViewFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793AF5D422C26E4500EEF939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793AF5DD22C26E4500EEF939 /* JessViewFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		793AF5CF22C26E4500EEF939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793AF5B522C26E4300EEF939 /* JessViewFinder */;
+			targetProxy = 793AF5CE22C26E4500EEF939 /* PBXContainerItemProxy */;
+		};
+		793AF5DA22C26E4500EEF939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793AF5B522C26E4300EEF939 /* JessViewFinder */;
+			targetProxy = 793AF5D922C26E4500EEF939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		793AF5BD22C26E4300EEF939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793AF5BE22C26E4300EEF939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		793AF5C522C26E4500EEF939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793AF5C622C26E4500EEF939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		793AF5DF22C26E4500EEF939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		793AF5E022C26E4500EEF939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		793AF5E222C26E4500EEF939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25WZW2A85;
+				INFOPLIST_FILE = JessViewFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JessViewFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		793AF5E322C26E4500EEF939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25WZW2A85;
+				INFOPLIST_FILE = JessViewFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JessViewFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		793AF5E522C26E4500EEF939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25WZW2A85;
+				INFOPLIST_FILE = JessViewFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JessViewFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JessViewFinder.app/JessViewFinder";
+			};
+			name = Debug;
+		};
+		793AF5E622C26E4500EEF939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25WZW2A85;
+				INFOPLIST_FILE = JessViewFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JessViewFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JessViewFinder.app/JessViewFinder";
+			};
+			name = Release;
+		};
+		793AF5E822C26E4500EEF939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25WZW2A85;
+				INFOPLIST_FILE = JessViewFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JessViewFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JessViewFinder;
+			};
+			name = Debug;
+		};
+		793AF5E922C26E4500EEF939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25WZW2A85;
+				INFOPLIST_FILE = JessViewFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JessViewFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JessViewFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		793AF5B122C26E4300EEF939 /* Build configuration list for PBXProject "JessViewFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793AF5DF22C26E4500EEF939 /* Debug */,
+				793AF5E022C26E4500EEF939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793AF5E122C26E4500EEF939 /* Build configuration list for PBXNativeTarget "JessViewFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793AF5E222C26E4500EEF939 /* Debug */,
+				793AF5E322C26E4500EEF939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793AF5E422C26E4500EEF939 /* Build configuration list for PBXNativeTarget "JessViewFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793AF5E522C26E4500EEF939 /* Debug */,
+				793AF5E622C26E4500EEF939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793AF5E722C26E4500EEF939 /* Build configuration list for PBXNativeTarget "JessViewFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793AF5E822C26E4500EEF939 /* Debug */,
+				793AF5E922C26E4500EEF939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		793AF5C022C26E4300EEF939 /* JessViewFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				793AF5C122C26E4300EEF939 /* JessViewFinder.xcdatamodel */,
+			);
+			currentVersion = 793AF5C122C26E4300EEF939 /* JessViewFinder.xcdatamodel */;
+			path = JessViewFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 793AF5AE22C26E4300EEF939 /* Project object */;
+}
