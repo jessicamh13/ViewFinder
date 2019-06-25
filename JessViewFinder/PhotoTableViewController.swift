@@ -1,5 +1,5 @@
 //
-//  AddPhotoViewController.swift
+//  PhotoTableViewController.swift
 //  JessViewFinder
 //
 //  Created by Jessica Hernandez on 6/25/19.
@@ -8,62 +8,63 @@
 
 import UIKit
 
-class AddPhotoViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class PhotoTableViewController: UITableViewController {
 
-    var imagePicker = UIImagePickerController()
     override func viewDidLoad() {
         super.viewDidLoad()
-        imagePicker.delegate = self
 
         // Uncomment the following line to preserve selection between presentations
-        //
-        
-  
-        
-        self.clearsSelectionOnViewWillAppear = false
+        //self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        //self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
 
-    @IBAction func CameraTapped(_ sender: Any) {
-        imagePicker.sourceType = .camera
-        present(imagePicker, animated: true, completion: nil)
-    }
-    
-    
-    @IBAction func PhotoLibraryTapped(_ sender: Any) {
-        imagePicker.sourceType = .photoLibrary
-        present(imagePicker, animated: true, completion: nil)
-    }
-    
-    
-    @IBAction func AlbumTapped(_ sender: Any) {
-        imagePicker.sourceType = .savedPhotosAlbum
-        present(imagePicker, animated: true, completion: nil)
-    }
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
+  
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return Photos.count
     }
 
-    /*
+    @IBAction func savePhotoTapped(_ sender: Any) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
+            
+            photoToSave.caption = captionText.text
+            
+            if let userImage = UIImagePNGRepresentation(userImage){
+                photoToSave.imageData = userImageData
+            }
+        }
+        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        
+        navigationController?.popViewController(animated: true)
+    }
+    
+
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = UITableViewCell()
+        let cellPhoto = photo[indexPath.row]
+        
+        cell.textLabel?.text = cellPhoto.caption
+        
+        if let cellPhotoImageData = cellPhoto.imageData {
+            if let cellPhotoImage = UIImage(data: cellPhoneImageData) {
+                cell.imageView?.image = cellPhotoImage
+            }
+        }
+        //You may need these later
+       // cell.textLabel?.text = "anything you want in here!"
+       // cell.imageView?.image = UIImage(named: "name-of-image-from-assets")
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
